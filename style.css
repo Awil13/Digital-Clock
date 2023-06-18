@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#afternoon{
+.afternoon{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #d0acac, #fdd77a);
@@ -84,14 +84,14 @@
     content:'SEC'
 }
 
-#night{
+.night{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #632B6C, #280f36);
     color: black;
 }
 
-#day{
+.day{
     width: 100%;
     min-height: 100vh;
     background: linear-gradient(45deg, #4999A2, #FFFFFF);
