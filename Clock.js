@@ -20,6 +20,8 @@ let double = ()=>{
     sec.innerHTML = (currentTime.getSeconds()<10?"0":"") + currentTime.getSeconds();
 };
 
-setInterval(double,change,1000)
-change();
-double();
+setInterval(()=>{
+    change();
+    double();
+   
+},1000);
